@@ -2,7 +2,13 @@ autoscale: true
 
 # Prompt, Package, Publish!
 
-Using AI agents to create and publish a python package from scratch
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Using AI agents to create & publish a python package from scratch
 
 Rhet Turnbull
 HSV.py, 26 June 2025
@@ -40,7 +46,7 @@ Lots of AI tools! Here's a sample of some of the tools I've tried:
 - [Github Copilot](https://github.com/copilot): plug-in for your editor (VSCode, Neovim, etc.)
 - [Lovable](https://lovable.dev/): create apps & websites
 - [Cursor](https://www.cursor.com): AI powered editor
-- [Claude Code](https://www.anthropic.com/claude-code), [Codex](https://openai.com/codex/): AI powered agents in your terminal
+- [Claude Code](https://www.anthropic.com/claude-code), [Codex](https://openai.com/codex/): AI powered agents in your terminal!
 
 ---
 
@@ -48,6 +54,18 @@ Lots of AI tools! Here's a sample of some of the tools I've tried:
 
 ```bash
 npm install -g @anthropic-ai/claude-code
+```
+
+## OpenAI Codex
+
+```bash
+npm i -g @openai/codex
+```
+
+## Gemini CLI
+
+```bash
+npm install -g @google/gemini-cli
 ```
 
 ---
@@ -157,8 +175,6 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
 
 ---
 
----
-
 ## Task Completed!
 
 ![inline](images/sphinx_click_custom_pypi.png)
@@ -171,6 +187,19 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
 
 ---
 
+```text
+> /cost
+  ⎿  Total cost:            $15.43
+     Total duration (API):  1h 17m 27.5s
+     Total duration (wall): 8h 43m 49.4s
+     Total code changes:    4175 lines added, 1212 lines removed
+     Token usage by model:
+         claude-3-5-haiku:  322.1k input, 23.8k output, 0 cache read, 0 cache write
+            claude-sonnet:  936 input, 115.1k output, 17.9m cache read, 2.1m cache write
+```
+
+---
+
 [.column]
 
 ## Worked Well
@@ -178,6 +207,7 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
 - Fulfilled the task with just a small amount of intervention
 - Working package, documented, and published to pypi
 - Basic tests, mypy runs cleanly, basic README
+- Solved my problem!
 
 [.column]
 
@@ -186,6 +216,7 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
 - Tests are very implmentation specific
 - Missed a few edge cases (some unique to my use case)
 - Tends to solve edge cases with overly specific implementations
+- Can get expensive (I was using metered API)
 
 ---
 
@@ -201,17 +232,6 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
 
 ---
 
-```text
-> /cost
-  ⎿  Total cost:            $15.43
-     Total duration (API):  1h 17m 27.5s
-     Total duration (wall): 8h 43m 49.4s
-     Total code changes:    4175 lines added, 1212 lines removed
-     Token usage by model:
-         claude-3-5-haiku:  322.1k input, 23.8k output, 0 cache read, 0 cache write
-            claude-sonnet:  936 input, 115.1k output, 17.9m cache read, 2.1m cache write
-```
----
 
 ## This Talk
 
