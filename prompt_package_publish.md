@@ -200,3 +200,11 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
             claude-sonnet:  936 input, 115.1k output, 17.9m cache read, 2.1m cache write
 ```
 ---
+
+## This Talk
+
+[https://github.com/RhetTbull/hsvpyppp](https://github.com/RhetTbull/hsvpyppp)
+
+![right scale:120%](images/hsvpy_ppp.png)
+
+---
