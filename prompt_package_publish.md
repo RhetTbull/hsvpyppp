@@ -1,7 +1,5 @@
 autoscale: true
 
-[.hide-footer] [.header: text-scale(2.0)]
-
 # Prompt, Package, Publish!
 
 Using AI agents to create and publish a python package from scratch
@@ -156,6 +154,20 @@ This sample python project uses Click to build a simple CLI. It uses sphinx and 
 [.column]
 
 ![fit](images/type-errors-2.png)
+
+---
+
+---
+
+## Task Completed!
+
+![inline](images/sphinx_click_custom_pypi.png)
+
+[https://github.com/RhetTbull/sphinx\_click\_custom](https://github.com/RhetTbull/sphinx_click_custom)
+
+---
+
+![inline fit](images/custom_help.png)
 
 ---
 
